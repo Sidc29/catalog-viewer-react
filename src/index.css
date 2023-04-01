@@ -136,6 +136,19 @@
   margin-top: 20px;
 }
 
+footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: grey;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;

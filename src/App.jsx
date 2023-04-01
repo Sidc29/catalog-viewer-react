@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-
+import { Footer } from "./Footer";
+// Material UI
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
 import PauseCircleIcon from "@mui/icons-material/PauseCircle";
@@ -108,7 +109,7 @@ export const App = () => {
                   cursor: "pointer",
                   color: darkMode && "white",
                 }}
-                onClick={() => setAutoplay((prevAutoplay) => !prevAutoplay)}
+                onClick={() => setAutoplay(!autoplay)}
               />
             ) : (
               <PlayCircleIcon
@@ -117,7 +118,7 @@ export const App = () => {
                   cursor: "pointer",
                   color: darkMode && "white",
                 }}
-                onClick={() => setAutoplay((prevAutoplay) => !prevAutoplay)}
+                onClick={() => setAutoplay(!autoplay)}
               />
             )}
           </div>
@@ -131,6 +132,7 @@ export const App = () => {
           </p>
         </div>
       </div>
+      <Footer darkMode={darkMode}></Footer>
     </>
   );
 };
