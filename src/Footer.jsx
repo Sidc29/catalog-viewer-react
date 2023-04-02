@@ -14,7 +14,12 @@ export const Footer = ({ darkMode }) => {
         &nbsp;The Guardian&nbsp;
       </a>
       for the Photographs.
-      <p>Made by Siddharth.</p>
+      <p>
+        Made by{" "}
+        <a href="http://shiddharth-portfolio.vercel.app/" target="_blank">
+          Siddharth.
+        </a>
+      </p>
     </footer>
   );
 };
