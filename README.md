@@ -8,7 +8,7 @@ To use the image carousel in your own project, follow these steps:
 
 1. Clone the project to your local machine using `git clone https://github.com/Sidc29/catalog-viewer-react.git`
 2. Install dependencies using `npm install`
-3. Start the development server using `npm run dev`
+3. Start the development server using `npm run dev or npm run dev -- --host`
 4. Access the carousel in your browser at `http://localhost:5173`
 
 ## Usage
@@ -25,7 +25,7 @@ The image carousel can be customized by updating the CSS styles in the `src/inde
 
 ## Credits
 
-This project was created by [Your Name] as an assignment for [Course Name]. It is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project was created by Shiddharth Choudhari as an assignment for Front End Developer Position. It is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contributing
 
