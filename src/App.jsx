@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Footer } from "./Footer";
+import { Footer } from "./components/Footer";
 // Material UI
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
@@ -64,8 +64,8 @@ export const App = () => {
           className="label"
           style={{ border: darkMode && "1px solid grey" }}
         >
-          <i className="fas fa-sun"></i>
           <i className="fas fa-moon"></i>
+          <i className="fas fa-sun"></i>
           <div className="ball"></div>
         </label>
       </div>

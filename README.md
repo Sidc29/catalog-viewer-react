@@ -13,7 +13,7 @@ To use the image carousel in your own project, follow these steps:
 
 ## Usage
 
-To use the image carousel, simply add your own images to the `src/assets/` folder and update the `src/data/data.js` file with the details for each image. The carousel will automatically generate thumbnails and display the images along with their details.
+To use the image carousel, simply add your own images to the `src/assets/` folder and update the `src/data/images.js` file with the details for each image. The carousel will automatically generate thumbnails and display the images along with their details.
 
 To navigate through the images, use the previous/next buttons or click on a thumbnail. You can also click the play/pause button to start or stop the automatic slideshow.
 
